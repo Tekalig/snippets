@@ -13,7 +13,7 @@ export default async function Home() {
         <h4 className="capitalize font-bold">{snippet.title}</h4>
         <Link
           href={`/snippets/${snippet.id}`}
-          className="text-green-400 font-bold hover:brightness-200 capitalize hover:scale-25"
+          className="text-green-400 font-bold hover:brightness-200 capitalize hover:scale-105"
         >
           view
         </Link>
